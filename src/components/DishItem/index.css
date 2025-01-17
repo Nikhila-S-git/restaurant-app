@@ -1,0 +1,79 @@
+.dishItemContainer {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  border: 1px solid #e7ebf1;
+  border-radius: 10px;
+  @media screen and (max-width: 360px) {
+  }
+}
+
+.dishDiscriptionContainer {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 360px) {
+    margin: 0px;
+  }
+}
+
+.dishImage {
+  height: 150px;
+  width: 150px;
+  margin: 0px 0px 0px 30px;
+  border-radius: 4px;
+  @media screen and (max-width: 360px) {
+    width: 340px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.dishName {
+  font-size: 20px;
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
+  }
+}
+
+.price {
+  color: #46484a;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.description {
+  color: grey;
+}
+
+.calories {
+  color: orange;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  @media screen and (min-width: 360px) {
+    width: 55px;
+  }
+}
+
+.iconButton {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.customizations {
+  color: #3c83b5;
+}
+
+.notAvailable {
+  color: red;
+}
