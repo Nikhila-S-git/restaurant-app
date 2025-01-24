@@ -1,0 +1,14 @@
+.removeAllBtn {
+  border: none;
+  background-color: rgba(179, 114, 40, 0.91);
+  color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.emptyCart {
+  height: 80px;
+  width: 120px;
+}

@@ -1,0 +1,21 @@
+.cartDishContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.nameQunatityContainer {
+}
+
+.removeBtn {
+  border: none;
+  background-color: rgba(179, 114, 40, 0.91);
+  color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+}

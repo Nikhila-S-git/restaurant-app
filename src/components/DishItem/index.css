@@ -59,7 +59,8 @@
   border-radius: 20px;
   padding: 10px;
   @media screen and (min-width: 360px) {
-    width: 55px;
+    width: 75px;
+    padding: 0px;
   }
 }
 
@@ -76,4 +77,15 @@
 
 .notAvailable {
   color: red;
+}
+
+.addToCartBtn {
+  border: none;
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
 }

@@ -7,6 +7,7 @@
 
 .cart-icon-value-container {
   display: flex;
+  align-items: center;
 }
 
 .cart-icon {
@@ -32,4 +33,31 @@
   @media screen and (min-width: 361px) {
     display: block;
   }
+}
+
+.logoutBtn {
+  background-color: rgb(68, 68, 190);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 70px;
+  height: 35px;
+}
+
+.cartBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+
+.linkHeading {
+  text-decoration: none;
+}
+
+.iconBtn {
+  border: none;
+  background-color: transparent;
 }

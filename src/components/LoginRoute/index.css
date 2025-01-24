@@ -1,0 +1,42 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.loginCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.heading {
+  margin-right: 30px;
+}
+
+.inputEl {
+  border: none;
+  background-color: rgb(197, 193, 193);
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+}
+
+.loginBtn {
+  background-color: rgb(68, 68, 190);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.errorMsg {
+  color: red;
+}
